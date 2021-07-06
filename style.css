@@ -67,3 +67,10 @@ h2 {
   border-radius: 25px;
   box-shadow: 10px 10px 40px gray;
 }
+footer {
+  padding-top: 2%;
+  padding-bottom: 4%;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
