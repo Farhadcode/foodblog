@@ -21,6 +21,11 @@ h2 {
 }
 .container {
   display: flex;
+  margin-bottom: 10%;
+}
+.about-bg {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
 }
 .btn {
   text-decoration: none;
@@ -29,4 +34,22 @@ h2 {
   border-radius: 20px;
   color: white;
   font-weight: 700;
+}
+.recipi-top {
+  text-align: center;
+}
+.card {
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 2%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 40px gray;
+}
+.card img {
+  width: 80%;
+  margin: 10%;
+}
+.recipi-cards {
 }
