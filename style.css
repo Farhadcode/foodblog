@@ -91,12 +91,17 @@ h2 {
   margin-right: 2%;
   padding: 2%;
   border-radius: 25px;
+
   box-shadow: 10px 10px 40px gray;
 }
 .input-box {
   text-align: center;
-  margin: 2%;
-  padding: 2%;
+  margin: 5%;
+  padding: 5%;
+  border: 20px solid;
+  border-image: linear-gradient(lightseagreen, cyan);
+
+  border-image-slice: 1;
 }
 
 input[type="text"],
@@ -123,8 +128,9 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-image: linear-gradient(orange, tomato);
+  font-size: 30px;
+  font-weight: 600;
 }
-
 .input-file {
   border-radius: 5px;
   background-color: #f2f2f2;
